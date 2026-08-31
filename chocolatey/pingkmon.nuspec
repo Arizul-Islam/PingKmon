@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pingkmon</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/Arizul-Islam/PingKmon</packageSourceUrl>
+    <owners>ARIZUL</owners>
+    <title>PingKmon</title>
+    <authors>ARIZUL</authors>
+    <projectUrl>https://github.com/Arizul-Islam/PingKmon</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Arizul-Islam/PingKmon/main/public/icon.png</iconUrl>
+    <copyright>All Rights Reserved © 2026 ARIZUL</copyright>
+    <licenseUrl>https://github.com/Arizul-Islam/PingKmon</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/Arizul-Islam/PingKmon/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Arizul-Islam/PingKmon/issues</bugTrackerUrl>
+    <tags>pingkmon ping network latency diagnostics traceroute speedtest monitoring packet-loss freeware admin</tags>
+    <summary>Native Windows Network Latency and Multi-Host Diagnostic Software</summary>
+    <description><![CDATA[
+PingKmon is a high-performance network diagnostic and latency monitoring tool built specifically for Windows. Whether diagnosing packet loss spikes, troubleshooting routing bottlenecks, or verifying connection stability, PingKmon delivers real-time telemetry with a minimal system footprint.
+
+Features:
+- Multi-Host Concurrent Monitoring: Track latency, jitter, and packet loss across multiple servers, DNS endpoints, and gateways simultaneously.
+- Real-Time Visual Timelines: High-frequency interactive canvas charts rendering smooth latency histories.
+- Visual Traceroute and Path Analysis: Hop-by-hop route diagnostics identifying exact peering bottlenecks.
+- Integrated Speed Test: Test download/upload throughput and loaded latency directly inside the app.
+- Smart Audio and Threshold Alerts: Customizable audio alarms and visual indicators.
+- Native Windows Integration: Built-in system tray minimization, auto-startup, and silent delta updates.
+]]></description>
+    <releaseNotes>https://github.com/Arizul-Islam/PingKmon/releases/tag/v1.0.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
