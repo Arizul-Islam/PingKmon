@@ -16,8 +16,8 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.0/PingKmon_2.0.0_x64-setup.exe">
-    <img src="https://img.shields.io/badge/DOWNLOAD_FOR_WINDOWS_(x64)-00C853?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download PingKmon v2.0.0" />
+  <a href="https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.2/PingKmon_2.0.2_x64-setup.exe">
+    <img src="https://img.shields.io/badge/DOWNLOAD_FOR_WINDOWS_(x64)-00C853?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download PingKmon v2.0.2" />
   </a>
 </p>
 

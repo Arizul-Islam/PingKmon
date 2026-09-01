@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
 
 PackageIdentifier: Arizul.PingKmon
-PackageVersion: 2.0.2
+PackageVersion: 2.0.1
 PackageLocale: en-US
 Publisher: ARIZUL
 PublisherUrl: https://github.com/Arizul-Islam
@@ -25,6 +25,6 @@ Tags:
   - monitor
   - packet-loss
   - freeware
-ReleaseNotesUrl: https://github.com/Arizul-Islam/PingKmon/releases/tag/v2.0.2
+ReleaseNotesUrl: https://github.com/Arizul-Islam/PingKmon/releases/tag/v2.0.1
 ManifestType: defaultLocale
 ManifestVersion: 1.6.0
