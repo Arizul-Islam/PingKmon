@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pingkmon</id>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <packageSourceUrl>https://github.com/Arizul-Islam/PingKmon</packageSourceUrl>
     <owners>ARIZUL</owners>
     <title>PingKmon</title>
@@ -27,7 +27,7 @@ Features:
 - Smart Audio and Threshold Alerts: Customizable audio alarms and visual indicators.
 - Native Windows Integration: Built-in system tray minimization, auto-startup, and silent delta updates.
 ]]></description>
-    <releaseNotes>https://github.com/Arizul-Islam/PingKmon/releases/tag/v1.0.0</releaseNotes>
+    <releaseNotes>https://github.com/Arizul-Islam/PingKmon/releases/tag/v2.0.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

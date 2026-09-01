@@ -7,6 +7,8 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Arizul-Islam/PingKmon/releases)
 [![Release](https://img.shields.io/github/v/release/Arizul-Islam/PingKmon?style=for-the-badge&color=22c55e&logo=github)](https://github.com/Arizul-Islam/PingKmon/releases/latest)
+[![Tauri](https://img.shields.io/badge/Tauri-2.0-blue?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app)
+[![Rust](https://img.shields.io/badge/Rust-2021-orange?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![WinGet](https://img.shields.io/badge/WinGet-Available-0078D4?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://github.com/microsoft/winget-pkgs/pull/426471)
 [![Chocolatey](https://img.shields.io/badge/Chocolatey-Package-80B5EA?style=for-the-badge&logo=chocolatey&logoColor=white)](https://community.chocolatey.org/packages/pingkmon)
 [![License](https://img.shields.io/badge/License-Freeware-0284c7?style=for-the-badge)](https://github.com/Arizul-Islam/PingKmon)
@@ -14,8 +16,8 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/Arizul-Islam/PingKmon/releases/latest/download/PingKmon-Setup-1.0.0.exe">
-    <img src="https://img.shields.io/badge/DOWNLOAD_FOR_WINDOWS_(x64)-00C853?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download PingKmon" />
+  <a href="https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.0/PingKmon_2.0.0_x64-setup.exe">
+    <img src="https://img.shields.io/badge/DOWNLOAD_FOR_WINDOWS_(x64)-00C853?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download PingKmon v2.0.0" />
   </a>
 </p>
 
@@ -41,32 +43,35 @@ choco install pingkmon
 
 ## Overview
 
-PingKmon is a high-performance network diagnostic and latency monitoring tool built specifically for Windows. Whether diagnosing packet loss spikes, troubleshooting routing bottlenecks, or verifying connection stability, PingKmon delivers real-time telemetry with a minimal system footprint.
+PingKmon is an ultra-fast, high-performance network diagnostic and latency monitoring tool built specifically for Windows powered by **Tauri 2.0** and a **native Rust ICMP engine**. Whether diagnosing packet loss spikes, troubleshooting routing bottlenecks, or verifying connection stability, PingKmon delivers real-time telemetry with an extremely low system resource footprint (**~15-30 MB RAM**, **< 0.5% CPU**).
 
 ---
 
 ## Key Features
 
+* **Native Rust ICMP Engine**  
+  Direct Windows `iphlpapi.dll` socket execution delivering true native ICMP pinging with sub-millisecond precision and zero simulated data.
+
 * **Multi-Host Concurrent Monitoring**  
   Track latency, jitter, and packet loss across multiple servers, DNS endpoints, and local gateways simultaneously in real time.
 
+* **PingPlotter-Style Loss & Gap Visualization**  
+  Full-height red vertical loss indicators that highlight packet drops clearly without compressing latency curves, plus shaded gray gap blocks for sleep/disconnect periods.
+
 * **High-Frequency Visual Timelines**  
-  Smooth interactive canvas sparklines and historical timeline charts rendering sub-millisecond updates without taxing system resources.
+  Smooth interactive HTML5 canvas charts with monotone spline interpolation and configurable sampling rates (`0.2s`, `0.5s`, `1s`, `2s`, `5s`).
 
 * **Visual Traceroute and Path Diagnostics**  
   Hop-by-hop route analysis identifying peering bottlenecks, ISP routing issues, and intermediate node packet drops.
 
 * **Integrated Multi-Server Speed Test**  
-  Test download throughput, upload throughput, bufferbloat, and loaded latency directly inside the application.
+  Multi-threaded Tokio HTTP throughput tester measuring download speed, upload speed, bufferbloat, and loaded latency directly inside the app.
 
-* **Acoustic and Threshold Alarms**  
-  Configurable audio alarms and visual banners triggered when latency exceeds custom thresholds or connection outages occur.
+* **Per-Host Acoustic & Threshold Alarms**  
+  Configurable audio synthesizer alerts and visual banners triggered when latency exceeds custom thresholds or connection outages occur.
 
-* **Differential Delta Auto-Updates**  
-  Built-in update notification system with blockmap differential updating, downloading only modified files directly in the background.
-
-* **Native Windows Integration**  
-  System tray background minimization, configurable auto-start on Windows boot, and low-latency native ICMP sockets.
+* **Native Windows & Tray Integration**  
+  System tray background minimization, configurable auto-start on Windows boot, and automatic background memory trimming.
 
 ---
 
@@ -97,8 +102,8 @@ PingKmon is a high-performance network diagnostic and latency monitoring tool bu
 | :--- | :--- | :--- |
 | **Operating System** | Windows 10 (64-bit, version 1809 or higher) | Windows 11 (64-bit) |
 | **Processor** | 64-bit Dual Core Intel / AMD | Multi-core 64-bit Processor |
-| **Memory (RAM)** | 2 GB | 4 GB or higher |
-| **Storage** | 200 MB available space | SSD storage |
+| **Memory (RAM)** | 512 MB available RAM | 2 GB or higher |
+| **Storage** | 50 MB available space | SSD storage |
 | **Network** | Active Wi-Fi or Ethernet connection | Broadband or Fiber connection |
 
 ---
