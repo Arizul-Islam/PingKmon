@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="1536" height="1024" alt="PingKmon Banner" src="https://github.com/user-attachments/assets/31ef67af-4df2-4a66-8e69-328761a0acf2" />
+<img width="1983" height="793" alt="PingKmon-GitHub" src="https://github.com/user-attachments/assets/7a4be537-69e4-40bb-9ea5-1d1d2bf35a79" />
 
 # PingKmon
 **Native Windows Network Latency and Multi-Host Diagnostic Software**
