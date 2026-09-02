@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 
 PackageIdentifier: Arizul.PingKmon
-PackageVersion: 2.0.2
+PackageVersion: 2.0.3
 InstallerLocale: en-US
 MinimumOSVersion: 10.0.17763.0
 InstallerType: nullsoft
@@ -14,7 +14,7 @@ UpgradeBehavior: install
 ReleaseDate: 2026-09-01
 Installers:
   - Architecture: x64
-    InstallerUrl: https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.2/PingKmon_2.0.2_x64-setup.exe
-    InstallerSha256: 5DAC9164BF7326C462BBBB275BA8B4CD39C1876C07E0C3AB6225D35A873161D6
+    InstallerUrl: https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.3/PingKmon_2.0.3_x64-setup.exe
+    InstallerSha256: 57BA09AB1B8C7D2605FB8DDFB7F19975F27197938EB07242A0CF096F428962A6
 ManifestType: installer
 ManifestVersion: 1.6.0
