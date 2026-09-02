@@ -1,7 +1,8 @@
 {
-  "version": "2.0.3",
-  "name": "v2.0.3 Stable",
+  "version": "2.0.4",
+  "name": "v2.0.4 Stable",
   "notes": "### Release Notes\n\n* **Target Editing**: Modify host display name, IP address/hostname, category tags, and accent colors directly from monitor cards or toolbar.\n* **Pinned Hero Cards**: Pin key targets to top as full-width horizontal cards with wide realtime sparkline graphs.\n* **Dynamic Gateway Resolution**: Zero CPU Win32 network listener instantly updates local gateway IP on Wi-Fi, Ethernet, or VPN adapter switches.\n* **Package Manager Sync**: Updated Chocolatey and WinGet manifests with verified installer SHA256 checksums.\n* **Automated Startup Updates**: PingKmon checks for new software releases seamlessly on launch with rich Markdown changelogs.",
-  "downloadUrl": "https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.3/PingKmon_2.0.3_x64-setup.exe",
-  "releaseUrl": "https://github.com/Arizul-Islam/PingKmon/releases/tag/v2.0.3"
+  "pub_date": "2026-09-02T09:40:00Z",
+  "downloadUrl": "https://github.com/Arizul-Islam/PingKmon/releases/download/v2.0.4/PingKmon_2.0.4_x64-setup.exe",
+  "releaseUrl": "https://github.com/Arizul-Islam/PingKmon/releases/tag/v2.0.4"
 }

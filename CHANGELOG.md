@@ -1,5 +1,16 @@
 # PingKmon Changelog
 
+## v2.0.4 - Nearest Speed Test Engine & Single Monitor Performance (2026-09-02)
+
+### 🚀 Major Highlights
+- **Nearest-Server Auto Selection Engine**: Rewrote speed test auto-resolver logic in Rust (`lib.rs`) to measure latency across regional endpoints first, filter candidates within 15ms of lowest ping, and select the highest throughput server among nearest candidates.
+- **Single Monitor Chart Performance Fix**: Fixed scrolling lag and high-frequency render bottleneck in `TargetDetailView.tsx` by replacing `Intl` locale string formatting with zero-allocation lazy getters.
+- **Continuous Chart Render Loop & Enhanced Zoom**: Eliminated render stalls during live monitoring and increased graph zoom ratio to 12% default.
+- **Expanded RAW Speed Test Registry**: Added 18 verified high-performance HTTPS endpoints across South Asia (Mumbai, Bengaluru, Chennai), Southeast Asia (Singapore), East Asia (Tokyo), Europe, Australia, and the Americas, including official OpenSpeedTest nodes.
+- **Auto-Resolved Target Persistence**: Fixed UI state lifecycle in `SpeedTest.tsx` to retain auto-resolved nearest targets without defaulting back to the first list item.
+
+---
+
 ## v2.0.3 - Automatic Update Management & Graph Controls (2026-09-02)
 
 ### 🚀 Major Highlights
